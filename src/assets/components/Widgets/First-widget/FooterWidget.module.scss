@@ -1,0 +1,21 @@
+.column {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    color: white;
+    margin-top: 20px;
+    width: 33%;
+
+    .title {
+        font-size: 30px;
+    }
+
+    .description {
+        font-size: 18px;
+    }
+
+    .text {
+        font-size: 14px;
+        width: 60%;
+    }
+}

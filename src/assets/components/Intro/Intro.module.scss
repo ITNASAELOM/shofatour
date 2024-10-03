@@ -1,0 +1,22 @@
+.intro {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-block: 90px;
+    background: #d9ed82;
+
+    @media (max-width: 600px) {
+        padding-block: 30px;
+    }
+
+    &__main {
+        display: flex;
+        justify-content: space-between;
+        gap: 40px;
+
+
+        @media (max-width: 600px) {
+            flex-direction: column;
+        }
+    }
+}

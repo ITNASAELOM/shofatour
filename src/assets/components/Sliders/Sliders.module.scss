@@ -1,0 +1,43 @@
+.slider {
+    padding-block: 50px;
+
+
+    &__text {
+
+        display: flex;
+        flex-direction: column;
+
+        span {
+            font-weight: 600;
+            color: #0e3d4d;
+
+
+        }
+
+        p {
+            font-weight: 700;
+            font-size: 40px;
+            color: #0e3d4d;
+            margin-bottom: 30px;
+
+            @media (max-width: 767px) {
+                font-size: 30px;
+            }
+        }
+    }
+
+    .sliders {
+        display: flex;
+        justify-content: center;
+
+        img {
+            border-radius: 12px;
+            width: 230px;
+            height: 250px;
+        }
+
+        @media (max-width: 1200px) {
+            width: 100%;
+        }
+    }
+}
