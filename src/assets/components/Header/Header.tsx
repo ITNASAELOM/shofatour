@@ -1,6 +1,6 @@
 // import FooterWidget from "@/assets/components/Widgets/First-widget";
 import classes from "@/assets/components/Header/Header.module.scss";
-// import WorldIcon from "@/assets/images/svg/world-tour-icon.svg?react";
+import WorldIcon from "@/assets/images/svg/world-tour-icon.svg?react";
 import { useRef } from "react";
 
 const Header = () => {
@@ -43,7 +43,7 @@ const Header = () => {
           <div className={classes["header"]}>
             <div className={classes["header__left"]}>
               <div className={classes["header__left-logo"]}>
-                {/* <WorldIcon style={{ fill: "#d9ed82", width: 50, height: 50 }} /> */}
+                <WorldIcon style={{ fill: "#d9ed82", width: 50, height: 50 }} />
                 <p className={classes["header__left-text"]}>
                   SHOFA
                   <span>TOUR</span>
